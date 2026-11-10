@@ -30,6 +30,13 @@
    entry in EDGES at all (see app.js).
    ========================================================================= */
 
+// Deliberately left unset: see this repo's README.md Status section --
+// 21 of 97 references are still genuinely unchecked (shared WebSearch
+// budget ran out mid-pass), so a clean date here would overstate how
+// settled this tool's citations are. Set this once that follow-up
+// verification pass actually completes -- don't backfill a guess.
+const VERIFIED = null;
+
 const REFERENCES = [
   { id: 1, kind: "Independently verified against a primary source (DOI resolution via an OpenAlex record and an independent citing source confirming PMID 20237045; title, authors, journal, year and page range all confirmed).", text: "El-Orbany, M. and Connolly, L.A. (2010) 'Rapid sequence induction and intubation: current controversy', Anesthesia & Analgesia, 110(5), pp. 1318-1325.", url: "https://doi.org/10.1213/ANE.0b013e3181d5ae47" },
   { id: 2, kind: "Independently verified to exist (title, authors, journal, volume and page range confirmed via an independent citing source's reference list); the DOI resolution itself could not be independently re-confirmed in this session (the publisher page returned repeated bot-protection challenges).", text: "Sparr, H.J. and Johr, M. (2002) 'Succinylcholine - update', Der Anaesthesist, 51(7), pp. 565-575.", url: "https://doi.org/10.1007/s00101-002-0324-7" },
